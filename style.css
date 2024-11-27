@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d5d5d5;
+    color: black;
+    gap: 15px;
+}
+
+.contenedor{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.645); 
+    max-width: 90%;
+}
+
+h1{
+    padding: 10px;
+}
+
+form{
+    gap: 15px;
+}
+
+input{ 
+    border-radius: 45px;
+    border: 1px solid lightgray;
+    height: 20px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.645); 
+    text-align: center;
+}
+
+.botones{
+    padding: 15px;
+}
+
+button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#borrar{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: rgb(255, 230, 0);
+}
+
+#borrar:hover{
+    background-color: rgb(200, 1, 1);
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin-top: -10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    border: none;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+tbody tr:hover {
+    background-color: #3a3a3a;
+}
+
+.ocultar {
+    display: none;
+    background-color: #ccc;
+}
